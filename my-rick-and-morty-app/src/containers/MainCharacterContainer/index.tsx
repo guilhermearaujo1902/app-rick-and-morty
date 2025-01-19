@@ -49,7 +49,7 @@ const MainCharacterContainer = () => {
                             id="name"
                             name="name"
                             placeholder=" "
-                            className="txt w-full"
+                            className="txt w-full min-w-330 sm:min-w-0"
                             value={searchTerm}
                             onChange={handleSearchChange}
                         />

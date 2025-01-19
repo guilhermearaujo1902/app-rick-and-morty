@@ -21,7 +21,7 @@ const CharacterCard = ({ character }: CharacterCardProps) => {
         <div
             className={cx(
                 styles.charCard,
-                "mb-6 w-[200px] rounded-lg relative"
+                "mb-6 w-[300px] md:w-[200px] rounded-lg relative"
             )}
         >
             {!character.isFavorite && (
