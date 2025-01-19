@@ -30,7 +30,7 @@ const SearchCharacterContainer = () => {
                 "py-3 px-6 items-center grid grid-cols-12"
             )}
         >
-            <div className="col-span-3">
+            <div className="col-span-12 sm:col-span-3">
                 <Image
                     src="/assets/images/rick-and-morty-logo.png"
                     alt="Descrição Rick and Morty com a cor da letra em verde e o contorno em amarelo"
@@ -39,12 +39,17 @@ const SearchCharacterContainer = () => {
                     layout="intrinsic"
                 />
             </div>
-            <div className={cx(styles.buttons, "col-span-9 flex justify-end")}>
+            <div
+                className={cx(
+                    styles.buttons,
+                    "col-span-12 sm:col-span-9 flex justify-center sm:justify-end mt-4 sm:mt-0"
+                )}
+            >
                 <button
                     onClick={goToHome}
                     className={cx(
                         styles.btn,
-                        "py-2 px-4 text-sm font-semibold flex items-center justify-between rounded-l-[12px]",
+                        "py-2 px-4 text-sm font-semibold flex items-center justify-between rounded-l-[12px] w-5/12 sm:w-auto",
                         {
                             [styles.btnActive]: isHome,
                         }
@@ -67,7 +72,7 @@ const SearchCharacterContainer = () => {
                     onClick={goToFavorite}
                     className={cx(
                         styles.btn,
-                        "py-2 px-4 text-sm font-semibold flex items-center justify-between rounded-r-[12px]",
+                        "py-2 px-4 text-sm font-semibold flex items-center justify-between rounded-r-[12px] w-7/12 sm:w-auto",
                         {
                             [styles.btnActive]: !isHome,
                         }
