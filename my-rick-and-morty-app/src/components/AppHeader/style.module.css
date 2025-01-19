@@ -1,0 +1,27 @@
+.appHeader {
+    background-color: #0a0a0a;
+}
+
+.buttons {
+    color: #a4a4a4;
+}
+
+.btn {
+    border: solid 1px #4d4c4c;
+}
+
+.btnActive {
+    background-color: #fff;
+    color: #0a0a0a;
+}
+
+.btnActive > .favCount {
+    color: #fff;
+    background-color: #0a0a0a;
+}
+
+.favCount {
+    background-color: #fff;
+    color: #0a0a0a;
+}
+
