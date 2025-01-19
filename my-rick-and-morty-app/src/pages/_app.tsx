@@ -4,6 +4,7 @@ import { Provider } from "react-redux";
 import Head from "next/head";
 
 import { store } from "@/store/store";
+import { AppHeader } from "@/components";
 import "../styles/globals.css";
 import "../styles/main.css";
 
@@ -15,6 +16,7 @@ const MyApp = ({ Component, pageProps }: AppProps) => (
             <Head>
                 <title>App Rick n Morty</title>
             </Head>
+            <AppHeader />
             <Component {...pageProps} />
         </QueryClientProvider>
     </Provider>
