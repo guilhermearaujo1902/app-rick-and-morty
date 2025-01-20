@@ -6,7 +6,7 @@ import Image from "next/image";
 import { RootState } from "@/store/store";
 import styles from "./style.module.css";
 
-const SearchCharacterContainer = () => {
+const AppHeader = () => {
     const { push } = useRouter();
     const router = useRouter();
     const isHome = router.pathname == "/" ? true : false;
@@ -100,4 +100,4 @@ const SearchCharacterContainer = () => {
     );
 };
 
-export default SearchCharacterContainer;
+export default AppHeader;
