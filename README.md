@@ -34,20 +34,12 @@ O objetivo do projeto é criar um app capaz de consumir a API do Rick and Morty 
 - **Visualizar Lista de Favoritos**: O usuário pode visualizar todos os personagens salvos como favoritos.
 - **Remover Favoritos**: É possível remover personagens da lista de favoritos.
 
-## Requisitos
-
-- Utilizar operadores do **RxJS** para otimizar as buscas, evitando chamadas desnecessárias à API.
-- Incluir uma fonte personalizada do **Google Fonts**.
-- Otimizar o uso de componentes para evitar repetição excessiva.
-- Assegurar que o layout seja **responsivo**.
-- Criar **testes unitários**.
-
 ## Como Executar o Projeto Localmente
 
 1. Clone o repositório:
 
    ```bash
-   git clone <link-do-repositório>
+   git clone https://github.com/guilhermearaujo1902/app-rick-and-morty.git
    ```
 
 2. Instale as dependências:
